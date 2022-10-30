@@ -1,0 +1,16 @@
+.answer-from-modal-action {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(53%, 56%, 58%, 0.7);;
+  padding: 10px 0px;
+  .answer-from-modal-action__message {
+    background-color: burlywood;
+    border: 1px solid #000;
+    border-radius: 5px;
+  }
+}

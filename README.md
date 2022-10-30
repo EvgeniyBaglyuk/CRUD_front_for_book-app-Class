@@ -1,0 +1,1 @@
+implemented a frontend part(with Class) for the book application server

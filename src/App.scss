@@ -1,0 +1,22 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  min-height: calc(100vh - 80px);
+  & .add-book {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    & button {
+      background-color: transparent;
+      border: none;
+    }
+    & svg:hover {
+      cursor: pointer;
+      fill: blue;
+    }
+    svg path {
+      fill: inherit;
+    }
+  }
+}
